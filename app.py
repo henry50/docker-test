@@ -4,4 +4,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "not found", 400
+    return "I'm a teapot", 318
